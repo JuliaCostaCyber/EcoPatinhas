@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.espacoLateral {
+    max-width: 1400px;
+    width: 80vw;
+     margin: 0 auto;
+   
+}
+
+.texto-banner{
+    background-image: url(./imgs/Cachorros\ no\ Parque.jpg);
+    background-repeat: no-repeat;
+    width: 450;
+    height: 600;
+}
+
+
+header
+
+
+
+.banner {
+    background-image:url(./imgs/Fundo\ do\ site\ EcoPatinhas.png);
+    background-repeat: no-repeat;
+    height : 10;
+}
+
+header img {
+    width: 1521px;
+
+}
+
+header {
+    height: 850px;
+}
+
+header.espacoLaterais{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+
+.menu {
+    max-width: 700px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: underline transparent;
+
+}
+
+.conteudo-banner{
+    margin-top: 190px;
+
+}
+
+.conteudo-banner p{
+    color: #000000;
+    font-size: 25px;
+}
+
+.conteudo-banner ul{
+    color: #F46B27;
+}
+ 
+
+
+@font-face {
+    font-family: "italiana";
+    src: url(./fonts/Italiana-Regular.ttf);
+
+}
+
