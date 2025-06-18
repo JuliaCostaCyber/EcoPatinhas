@@ -241,7 +241,7 @@ section p {
 #fundo {
     background-image: url(./imgs/Fundo\ Patinhas\ 2\ 1.png);
     background-size: 100%;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
     height: 1000px;
     background-repeat: no-repeat;
     padding: 50px;
@@ -382,14 +382,6 @@ section p {
     background-color: var(--Laranja-Escuro);
 }
 
-#parallax {
-    height: 250px;
-
-    background: linear-gradient(rgba(0, 0, 0, 0.22)), url(./imgs/Parallax-patinhas2.png);
-    background-size: 30%;
-    background-attachment: fixed;
-    margin-bottom: 120px;
-}
 
 
 /* ----------Footer------------- */
