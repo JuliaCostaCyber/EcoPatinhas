@@ -15,7 +15,7 @@
 
 
 .espacoLateral {
-    max-width: 1400px;
+    max-width: 1600px;
     width: 80vw;
     margin: 0 auto;
 
@@ -51,7 +51,7 @@ body {
     display: flex;
     font-family: "Rasa";
     font-weight: 600;
-    font-size: 35px
+    font-size: 25px
 }
 
 .titulo h2 {
@@ -65,6 +65,7 @@ body {
 .titulo span {
     color: #000000;
     border-bottom: solid 3px #000000;
+height: 27px;
 }
 
 
@@ -90,7 +91,7 @@ header img {
 
 .menu {
     max-width: 600px;
-    width: 70%;
+    width: 50%;
 
     display: flex;
     justify-content: space-between;
@@ -221,9 +222,6 @@ section p {
 
 }
 
-
-
-
 /* ---------------servicos--------------------- */
 #servicos {
     display: flex;
@@ -243,18 +241,20 @@ section p {
 #fundo {
     background-image: url(./imgs/Fundo\ Patinhas\ 2\ 1.png);
     background-size: 100%;
-    margin-bottom: 120px;
-    height: 2500px;
+    margin-bottom: 300px;
+    height: 1000px;
     background-repeat: no-repeat;
+    padding: 50px;
 }
 
 
-/* ----------------Contato----------------- */
+/* -----------------------Contato----------------- */
 
 #contato {
     text-align: center;
     padding-bottom: 100px;
     margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 #contato .titulo {
@@ -394,25 +394,26 @@ section p {
 
 /* ----------Footer------------- */
 footer {
-    height: 250px;
-
+    height: 270px;
+background-color: #F9AC78;
 }
 
 footer img {
     height: 180px;
     align-items: center;
+
 }
 
 footer .container-grid {
     height: 100%;
-
+margin: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .redes-sociais {
-    height: 100%;
+    height: 70%;
 
     display: flex;
     flex-direction: column;
@@ -424,11 +425,11 @@ footer .container-grid {
     color: var(--preto);
 
     font-family: "Italiana", regular;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .icones-redes {
-    width: 250px;
+    width: 230px;
 
     display: flex;
     justify-content: space-between;
@@ -440,32 +441,5 @@ footer .container-grid {
 }
 
 .icones-redes a:hover {
-    color: var(--Laranja-Claro);
-}
-
-.barra-pesquisa {
-    text-align: center;
-    width: 100%;
-    max-width: 98px;
-
-    margin: 0 auto;
-    padding: 30px 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    border-radius: 60px;
-    background-color: var(--Cinza);
-    border: solid 3px var(--Cinza);
-
-
-    width: 40%;
-
-    text-align: left;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+    color: var(--Laranja-Escuro);
 }
